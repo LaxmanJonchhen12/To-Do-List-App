@@ -1,12 +1,53 @@
+/* css reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Main Title Styling */
+#main-Title {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* input area styling */
+#input {
+  position: fixed;
+  top: 60px;
+}
+
+/* task list styling */
+#taskList {
+  position: absolute;
+  top: 100px;
+}
+
+/* contents of to do list styling */
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* space class for class between to do list item */
 .space {
   line-height: 3rem;
 }
+
+/* delete Button styling */
 .delBtn {
   margin-left: 35px;
 }
+
+/* Done Button Styling */
 .doneBtn {
   margin-left: 20px;
 }
+
+/* Completed Task Styling */
 .done {
   text-decoration: line-through;
 }
