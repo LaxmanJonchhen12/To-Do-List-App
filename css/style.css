@@ -1,0 +1,12 @@
+.space {
+  line-height: 3rem;
+}
+.delBtn {
+  margin-left: 35px;
+}
+.doneBtn {
+  margin-left: 20px;
+}
+.done {
+  text-decoration: line-through;
+}
